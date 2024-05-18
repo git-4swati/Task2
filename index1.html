@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Swati-Web Dev-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700 & display=swap" rel="stylesheet">
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(0, 0, 33);
+      color: rgb(130, 189, 11);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: rgb(248, 219, 245);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+     text-decoration: none;
+     color: black;
+    }
+    nav ul li a:hover {
+    font-size: 1.04rem;
+     color: rgb(198, 16, 16);
+    }
+    main hr{
+       border:0;
+       height:1.2px;
+       margin:40px, 84px;
+       background: yellow;
+    }
+  
+
+    .left {
+      font-size: 1.7rem;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+     /* margin-left: 10%;*/
+      align-items: center;
+      margin: 10vh 0;
+    
+    }
+    .firstsection> div{
+      width: 30%;
+    }
+    .leftsection{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 2rem;
+      margin: 70px 0;
+      
+    }
+    .leftsection .button{
+      padding: 20px 5px;
+
+    }
+    .leftsection .btn{
+      background-color: rgb(244, 182, 236);
+      color:black;
+      border:2px solid white ;
+      border-radius: 6px;
+      font-size:17px;
+      cursor: pointer;
+
+    }
+    .text-grey{
+      color:blueviolet;
+    }
+    .rightsection img{
+      width:80%;
+      margin: 40px 0px;
+    }
+    .purple{
+      color:rgb(152, 45, 228);
+    }
+    #element{
+      color:rgb(152, 45, 228);
+    }
+    .secondSection{
+      max-width: 80vx;
+      margin-left: 19%;
+      margin-top: 2%;
+    }
+    .secondSection h1{
+       font-size: 1.5rem;
+    }
+    .secondSection .box{
+      background:whitesmoke ;
+      width:80vw ;
+      height: 2px;
+      margin: 56px 0;
+      display:flex;
+    }
+    .secondSection .vertical{
+      height:100px;
+      width: 2px;
+      background-color: aqua;
+      margin:0 100px ;
+    }
+    .image-top{
+      width: 40px;
+      position:relative;
+      left:-26px;
+      top:-40px;
+    }
+    .Vertical-text{
+      position:relative;
+      left:0px;
+      top:55px;
+      width: 5px;
+      font-size: 14px;
+
+    }
+    .Vertical-desc{
+      position: relative;
+      left:0px;
+      top:75px;
+      width: 125px;
+      font-size: 12px;
+      color: bisque;
+
+    }
+    .flexi{
+      display: flex;
+      margin:500px 20px;
+      color:rgb(198, 241, 89);
+      justify-content: space-evenly;
+
+    }
+     footer{
+     background-color:rgb(36, 40, 54);
+     height:323px;
+     margin-top: 20px;;
+     
+     }
+     .flexi > div{
+      width: 223px;
+      margin-top: 30px;
+     }
+
+     footer .text-center{
+      color:rgb(232, 243, 36);
+      text-align: center;
+     
+     }
+   @media screen and (max-width: 1300px) {
+    body{ background-color: rgb(6, 36, 82);}
+   
+   .box{
+    flex-direction: column;
+   }
+   .secondSection .vertical{
+    height:unset;
+   }
+   .firstsection{
+    flex-direction: column-reverse;
+   }
+   nav{
+    flex-direction: column;
+   }
+   .Vertical-text, .Vertical-desc{
+    left:45px;
+   }
+   .secondSection .box{
+    width:50vw;
+   }
+   .secondSection {
+    height: 141vh;
+   }
+   
+   
+  .leftSection{
+    width:100% !important;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+.rightsection{
+  width: 600px !important;
+  display: flex;
+  justify-content: center;
+}
+.rightsection img{
+  width: 45vw;
+  margin-bottom: 73px;
+}
+.secondSection{
+  max-width: 50vw;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-top{
+  top: 113px !important;
+}
+body{
+  min-width: fit-content;
+}}
+    
+  </style>
+   
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Swati's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li> <a href="/">Home</li></a>
+          <li><a href="/">About</li></a>
+          <li><a href="/">Services</li></a>
+          <li> <a href="/">Projects</li></a>
+          <li> <a href="/">Contact Me</li></a>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection" >
+       <div> Hi,there! I am <span class="purple">SWATI JHA</span> </div>
+        <div>and I am an aspiring <div></div>
+        <span id="element"></span>
+        <div class="button">
+      <button class="btn">
+        Download Resume</button>
+      <button class="btn">
+        Visit Github</button></div></div></div>
+      <div class="rightsection">
+        <img src="wd.jpeg"alt="" >
+      </div></section>
+      <hr>
+      <section class="secondSection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Work Experiences & Skillset</h1>
+        <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="Vertical-text">
+            Cloud Computing (March-2022:May-2022)
+          </div>
+          <div class="Vertical-desc">
+            Learnt about Microsoft Azure and its features.
+            Deployed/Set-up a Virtual Machine.
+            Created a Chatbot using Azure's Features
+
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="Vertical-text" >
+            Java developer + DataStructures and algorithms(DSA)
+          </div>
+          <div class="Vertical-desc">
+             Solved 500+ leetcode problems.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+         <div class="Vertical-text">
+          Web developer<span>[HTML, CSS, Javascript, React.js]</span>
+         </div>
+         <div class="Vertical-desc">
+          Web developer Intern at Spweb@dev
+         </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+         <div class="Vertical-text">
+          Javascript
+         </div>
+         <div class="Vertical-desc">
+          Online Calculator & Myntra's Billing format
+         </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+         <div class="Vertical-text">
+          Content Writer at Notam Artwork
+         </div>
+         <div class="Vertical-desc">
+          Wrote several blogs about 100's of topics including Fiverr, LInkedIn etc.
+         </div>
+        </div>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="flexi">
+      <div class="first-f">
+        <h3>Swati's Portfolio Website</h3>
+      </div>
+      <div class="second-f">
+      <ul>
+        <li>
+          Home
+        </li>
+        <li>
+        About </li>
+        <li>
+        Contact
+        </li>
+      </ul></div>
+      <div class="third-f">
+        <ul><li>
+          LinkedIn
+        </li>
+        <li>
+        Youtube </li>
+        <li>
+         x </li></ul>
+
+      </div>
+    </div>
+    
+   
+    <div class="text-center">
+      Copyright &#169;Swati's portfolio.com|All rights reserved.
+    </div> 
+  
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Content Writer','Electronics Engineer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
